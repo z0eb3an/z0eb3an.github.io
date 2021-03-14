@@ -1,7 +1,5 @@
-@media only screen and (min-device-width: 1920px) {
-    body {
-        height: 30000px;
-        width: cover;
-        background: url(crustcrust.jpg);
-    }
+body {
+    height: 30000px;
+    width: cover;
+    background: url(crustcrust.jpg);
 }
