@@ -3,3 +3,6 @@ body {
     width: cover;
     background: url(crustcrust.jpg);
   }
+borderimg {
+    border-image: url(https://images.cooltext.com/5513211.png) 50 round;
+}
