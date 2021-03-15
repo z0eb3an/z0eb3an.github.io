@@ -1,7 +1,7 @@
 body {
     height: 30000px;
     width: 100%;
-    background-image: url("crustcrust.jpg");
+    background-image: url(crustcrust.jpg);
     background-size: auto 100%;
     margin: 0;
     background-position: center center;
