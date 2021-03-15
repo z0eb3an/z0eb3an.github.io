@@ -6,7 +6,7 @@ body {
     url("crustcrust.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-height: 30000px;
+    background-height: 100%;
     background-width:cover;
     position: relative;
 }
