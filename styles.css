@@ -4,10 +4,10 @@ body {
 
 .bg-image{
     url("crustcrust.jpg");
-    height: 300000px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-height: 30000px;
+    background-width:cover;
     position: relative;
 }
 
