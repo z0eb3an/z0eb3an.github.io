@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html> 
 
-<head>
-  <link rel="stylesheet" href="styles.css">
-  
-</head>
+
    
 <!-- <body background="crustcrust.jpg">
   <button type="button">build!</button>
@@ -14,28 +11,37 @@
   </div>
   
 </body> -->
-<style>
-.parallax {
-  /* The image used */
-  background-image: url("crustcrust.jpg");
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  .parallax {
+    /* The image used */
+    background-image: url("img_parallax.jpg");
 
-  /* Set a specific height */
-  min-height: 500px;
+    /* Set a specific height */
+    min-height: 500px; 
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-</style>
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  </style>
+</head>
+<body>
 
-<!-- Container element -->
+<p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
+
 <div class="parallax"></div>
+
 <div style="height:1000px;background-color:red;font-size:36px">
 Scroll Up and Down this page to see the parallax scrolling effect.
 This div is just here to enable scrolling.
 Tip: Try to remove the background-attachment property to remove the scrolling effect.
 </div>
-  
+
+</body>
 </html>
