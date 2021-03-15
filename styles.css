@@ -3,7 +3,7 @@ body {
 }
 
 .bg-image{
-    url("crustcrust.jpg");
+    background-image: url("crustcrust.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
