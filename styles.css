@@ -1,12 +1,13 @@
 body {
     margin: 0;  
+    height: 30000px
 }
 
 .bg-image{
     background-image: url("crustcrust.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-height: 30000px;
     position: relative;
 }
 
